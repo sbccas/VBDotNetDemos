@@ -1,0 +1,1016 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6DFE06C4-33EE-467C-88F6-C24B9A32A4EC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>VBDemos.My.MyApplication</StartupObject>
+    <RootNamespace>VBDemos</RootNamespace>
+    <AssemblyName>VBDemos</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <PublishUrl>D:\HPP Personal\Dropbox\Study Material\ASP.NET\AllExamples\VBDemos\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Background</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>false</MapFileExtensions>
+    <InstallUrl>http://192.168.10.73/VBDemos/</InstallUrl>
+    <SupportUrl>http://172.30.58.233/CodeViewer.aspx</SupportUrl>
+    <ProductName>VBDemos</ProductName>
+    <PublisherName>HITESH P PATEL</PublisherName>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
+    <WebPage>publish.html</WebPage>
+    <ApplicationRevision>84</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <BootstrapperComponentsLocation>Relative</BootstrapperComponentsLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>VBDemos.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>VBDemos.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>149B1707C08D40B823799A2D0ACF9AB7ABCFC7AA</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>VBDemos_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\HITECH_LOGO.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutDemos.Designer.vb">
+      <DependentUpon>AboutDemos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AboutDemos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="adobindingdemo.Designer.vb">
+      <DependentUpon>adobindingdemo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="adobindingdemo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="adodemowithcode.Designer.vb">
+      <DependentUpon>adodemowithcode.vb</DependentUpon>
+    </Compile>
+    <Compile Include="adodemowithcode.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="adoinsertdemoForm1.Designer.vb">
+      <DependentUpon>adoinsertdemoForm1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="adoinsertdemoForm1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="adosqldemo.Designer.vb">
+      <DependentUpon>adosqldemo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="adosqldemo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="CertificateDataDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CertificateDataDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="clsADOOperation.vb" />
+    <Compile Include="clsADOOperationSYBCA4.vb" />
+    <Compile Include="clsSYBCA3.vb" />
+    <Compile Include="clsSYBCA3Child.vb" />
+    <Compile Include="clsSYBCA4.vb" />
+    <Compile Include="clsSYBCA4child.vb" />
+    <Compile Include="clsValentine.vb" />
+    <Compile Include="Database1DataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Database1DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Database1DataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Database1DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Database2DataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Database2DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DemosDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DemosDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DemosDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DemosDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DemosDataSet2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DemosDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DemosDataSet3.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DemosDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DemosDataSet4.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DemosDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="examDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>examDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="examsample.vb" />
+    <Compile Include="frmComboBoxDemo.Designer.vb">
+      <DependentUpon>frmComboBoxDemo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmComboBoxDemo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmComponentsDemo.Designer.vb">
+      <DependentUpon>frmComponentsDemo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmComponentsDemo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmControlCounter.Designer.vb">
+      <DependentUpon>frmControlCounter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmControlCounter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDataboundControlDemo.Designer.vb">
+      <DependentUpon>frmDataboundControlDemo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDataboundControlDemo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDemoExplorer.Designer.vb">
+      <DependentUpon>frmDemoExplorer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDemoExplorer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInbuiltFunctions.Designer.vb">
+      <DependentUpon>frmInbuiltFunctions.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmInbuiltFunctions.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenuDemoMDI.Designer.vb">
+      <DependentUpon>frmMenuDemoMDI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMenuDemoMDI.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenuSDI.Designer.vb">
+      <DependentUpon>frmMenuSDI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMenuSDI.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmModuleDemo.Designer.vb">
+      <DependentUpon>frmModuleDemo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmModuleDemo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMouseEventsDemo.Designer.vb">
+      <DependentUpon>frmMouseEventsDemo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMouseEventsDemo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMultiComboBox.Designer.vb">
+      <DependentUpon>frmMultiComboBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMultiComboBox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNavigationDemo.Designer.vb">
+      <DependentUpon>frmNavigationDemo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmNavigationDemo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNavigatorDemo4SYBCA2.Designer.vb">
+      <DependentUpon>frmNavigatorDemo4SYBCA2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmNavigatorDemo4SYBCA2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNotepad2021.Designer.vb">
+      <DependentUpon>frmNotepad2021.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmNotepad2021.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOracleConnectionDemo.Designer.vb">
+      <DependentUpon>frmOracleConnectionDemo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmOracleConnectionDemo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSearchDataReader.Designer.vb">
+      <DependentUpon>frmSearchDataReader.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSearchDataReader.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmShowAllData.Designer.vb">
+      <DependentUpon>frmShowAllData.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmShowAllData.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmShowSpecialData.Designer.vb">
+      <DependentUpon>frmShowSpecialData.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmShowSpecialData.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSQLDataEntryWithCassSYBCA4.Designer.vb">
+      <DependentUpon>frmSQLDataEntryWithCassSYBCA4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSQLDataEntryWithCassSYBCA4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmContainerControls.Designer.vb">
+      <DependentUpon>frmContainerControls.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmContainerControls.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSQLDataEntrythroughClass.Designer.vb">
+      <DependentUpon>frmSQLDataEntrythroughClass.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSQLDataEntrythroughClass.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmExceptionHandlingDemo.Designer.vb">
+      <DependentUpon>frmExceptionHandlingDemo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmExceptionHandlingDemo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOOPSDemonstration.Designer.vb">
+      <DependentUpon>frmOOPSDemonstration.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmOOPSDemonstration.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSQLDataEntry.Designer.vb">
+      <DependentUpon>frmSQLDataEntry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSQLDataEntry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.vb">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCheckedlistBoxDemo.Designer.vb">
+      <DependentUpon>frmCheckedlistBoxDemo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCheckedlistBoxDemo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDataEntry.Designer.vb">
+      <DependentUpon>frmDataEntry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDataEntry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmErrorHelpNotifyDemo.Designer.vb">
+      <DependentUpon>frmErrorHelpNotifyDemo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmErrorHelpNotifyDemo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInputBoxDemo.Designer.vb">
+      <DependentUpon>frmInputBoxDemo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmInputBoxDemo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmListBoxDemo.Designer.vb">
+      <DependentUpon>frmListBoxDemo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmListBoxDemo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmListBoxOperation.Designer.vb">
+      <DependentUpon>frmListBoxOperation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmListBoxOperation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMYMDIPARENT.Designer.vb">
+      <DependentUpon>frmMYMDIPARENT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMYMDIPARENT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNotepadDemo.Designer.vb">
+      <DependentUpon>frmNotepadDemo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmNotepadDemo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOpenFileDialogFileNamesDemo.Designer.vb">
+      <DependentUpon>frmOpenFileDialogFileNamesDemo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmOpenFileDialogFileNamesDemo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPerDetails.Designer.vb">
+      <DependentUpon>frmPerDetails.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPerDetails.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSQLMasterChild.Designer.vb">
+      <DependentUpon>frmSQLMasterChild.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSQLMasterChild.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVBDefaultsOptionStatements.Designer.vb">
+      <DependentUpon>frmVBDefaultsOptionStatements.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmVBDefaultsOptionStatements.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWebBrowserDemo.Designer.vb">
+      <DependentUpon>frmWebBrowserDemo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWebBrowserDemo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWindowsExplorer.Designer.vb">
+      <DependentUpon>frmWindowsExplorer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWindowsExplorer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWinExplore.Designer.vb">
+      <DependentUpon>frmWinExplore.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWinExplore.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="iSYBCA3.vb" />
+    <Compile Include="Isybca4.vb" />
+    <Compile Include="modTest.vb" />
+    <Compile Include="My Project\Application1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="sampleadoform.Designer.vb">
+      <DependentUpon>sampleadoform.vb</DependentUpon>
+    </Compile>
+    <Compile Include="sampleadoform.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="studentdemo153.Designer.vb">
+      <DependentUpon>studentdemo153.vb</DependentUpon>
+    </Compile>
+    <Compile Include="studentdemo153.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="studinfoDataSet11.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>studinfoDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="studinfoDataSet2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>studinfoDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="studinfoDataSet21.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>studinfoDataSet21.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ucDemo.Designer.vb">
+      <DependentUpon>ucDemo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ucDemo.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCLabelDemo.Designer.vb">
+      <DependentUpon>UCLabelDemo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UCLabelDemo.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCViewCode.Designer.vb">
+      <DependentUpon>UCViewCode.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UCViewCode.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl1.Designer.vb">
+      <DependentUpon>UserControl1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl1.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="_DEMOS_MDFDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_DEMOS_MDFDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="_DEMOS_MDFDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_DEMOS_MDFDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="_DEMOS_MDFDataSet2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_DEMOS_MDFDataSet2.xsd</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AboutDemos.resx">
+      <DependentUpon>AboutDemos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adobindingdemo.resx">
+      <DependentUpon>adobindingdemo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adodemowithcode.resx">
+      <DependentUpon>adodemowithcode.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adoinsertdemoForm1.resx">
+      <DependentUpon>adoinsertdemoForm1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adosqldemo.resx">
+      <DependentUpon>adosqldemo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmComboBoxDemo.resx">
+      <DependentUpon>frmComboBoxDemo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmComponentsDemo.resx">
+      <DependentUpon>frmComponentsDemo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmControlCounter.resx">
+      <DependentUpon>frmControlCounter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDataboundControlDemo.resx">
+      <DependentUpon>frmDataboundControlDemo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDemoExplorer.resx">
+      <DependentUpon>frmDemoExplorer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInbuiltFunctions.resx">
+      <DependentUpon>frmInbuiltFunctions.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMenuDemoMDI.resx">
+      <DependentUpon>frmMenuDemoMDI.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMenuSDI.resx">
+      <DependentUpon>frmMenuSDI.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmModuleDemo.resx">
+      <DependentUpon>frmModuleDemo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMouseEventsDemo.resx">
+      <DependentUpon>frmMouseEventsDemo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMultiComboBox.resx">
+      <DependentUpon>frmMultiComboBox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNavigationDemo.resx">
+      <DependentUpon>frmNavigationDemo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNavigatorDemo4SYBCA2.resx">
+      <DependentUpon>frmNavigatorDemo4SYBCA2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNotepad2021.resx">
+      <DependentUpon>frmNotepad2021.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOracleConnectionDemo.resx">
+      <DependentUpon>frmOracleConnectionDemo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSearchDataReader.resx">
+      <DependentUpon>frmSearchDataReader.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmShowAllData.resx">
+      <DependentUpon>frmShowAllData.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmShowSpecialData.resx">
+      <DependentUpon>frmShowSpecialData.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSQLDataEntryWithCassSYBCA4.resx">
+      <DependentUpon>frmSQLDataEntryWithCassSYBCA4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmContainerControls.resx">
+      <DependentUpon>frmContainerControls.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSQLDataEntrythroughClass.resx">
+      <DependentUpon>frmSQLDataEntrythroughClass.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmExceptionHandlingDemo.resx">
+      <DependentUpon>frmExceptionHandlingDemo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOOPSDemonstration.resx">
+      <DependentUpon>frmOOPSDemonstration.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSQLDataEntry.resx">
+      <DependentUpon>frmSQLDataEntry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCheckedlistBoxDemo.resx">
+      <DependentUpon>frmCheckedlistBoxDemo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDataEntry.resx">
+      <DependentUpon>frmDataEntry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmErrorHelpNotifyDemo.resx">
+      <DependentUpon>frmErrorHelpNotifyDemo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInputBoxDemo.resx">
+      <DependentUpon>frmInputBoxDemo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmListBoxDemo.resx">
+      <DependentUpon>frmListBoxDemo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmListBoxOperation.resx">
+      <DependentUpon>frmListBoxOperation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMYMDIPARENT.resx">
+      <DependentUpon>frmMYMDIPARENT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNotepadDemo.resx">
+      <DependentUpon>frmNotepadDemo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOpenFileDialogFileNamesDemo.resx">
+      <DependentUpon>frmOpenFileDialogFileNamesDemo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPerDetails.resx">
+      <DependentUpon>frmPerDetails.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSQLMasterChild.resx">
+      <DependentUpon>frmSQLMasterChild.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVBDefaultsOptionStatements.resx">
+      <DependentUpon>frmVBDefaultsOptionStatements.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWebBrowserDemo.resx">
+      <DependentUpon>frmWebBrowserDemo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWindowsExplorer.resx">
+      <DependentUpon>frmWindowsExplorer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWinExplore.resx">
+      <DependentUpon>frmWinExplore.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sampleadoform.resx">
+      <DependentUpon>sampleadoform.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="studentdemo153.resx">
+      <DependentUpon>studentdemo153.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucDemo.resx">
+      <DependentUpon>ucDemo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCLabelDemo.resx">
+      <DependentUpon>UCLabelDemo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCViewCode.resx">
+      <DependentUpon>UCViewCode.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl1.resx">
+      <DependentUpon>UserControl1.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CertificateDataDataSet.xsc">
+      <DependentUpon>CertificateDataDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="CertificateDataDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CertificateDataDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CertificateDataDataSet.xss">
+      <DependentUpon>CertificateDataDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Database1DataSet.xsc">
+      <DependentUpon>Database1DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Database1DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Database1DataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Database1DataSet.xss">
+      <DependentUpon>Database1DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Database1DataSet1.xsc">
+      <DependentUpon>Database1DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Database1DataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Database1DataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Database1DataSet1.xss">
+      <DependentUpon>Database1DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Database2DataSet.xsc">
+      <DependentUpon>Database2DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Database2DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Database2DataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Database2DataSet.xss">
+      <DependentUpon>Database2DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DemosDataSet.xsc">
+      <DependentUpon>DemosDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DemosDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DemosDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DemosDataSet.xss">
+      <DependentUpon>DemosDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DemosDataSet1.xsc">
+      <DependentUpon>DemosDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DemosDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DemosDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DemosDataSet1.xss">
+      <DependentUpon>DemosDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DemosDataSet2.xsc">
+      <DependentUpon>DemosDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="DemosDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DemosDataSet2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DemosDataSet2.xss">
+      <DependentUpon>DemosDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="DemosDataSet3.xsc">
+      <DependentUpon>DemosDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="DemosDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DemosDataSet3.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DemosDataSet3.xss">
+      <DependentUpon>DemosDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="DemosDataSet4.xsc">
+      <DependentUpon>DemosDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="DemosDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DemosDataSet4.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DemosDataSet4.xss">
+      <DependentUpon>DemosDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="examDataSet.xsc">
+      <DependentUpon>examDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="examDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>examDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="examDataSet.xss">
+      <DependentUpon>examDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\ComfyPhotoRecovery.chm" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application1.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="studinfoDataSet11.xsc">
+      <DependentUpon>studinfoDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="studinfoDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>studinfoDataSet11.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="studinfoDataSet11.xss">
+      <DependentUpon>studinfoDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="studinfoDataSet2.xsc">
+      <DependentUpon>studinfoDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="studinfoDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>studinfoDataSet2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="studinfoDataSet2.xss">
+      <DependentUpon>studinfoDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="studinfoDataSet21.xsc">
+      <DependentUpon>studinfoDataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="studinfoDataSet21.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>studinfoDataSet21.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="studinfoDataSet21.xss">
+      <DependentUpon>studinfoDataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="VBDemos_2_TemporaryKey.pfx" />
+    <None Include="VBDemos_TemporaryKey.pfx" />
+    <None Include="_DEMOS_MDFDataSet.xsc">
+      <DependentUpon>_DEMOS_MDFDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="_DEMOS_MDFDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>_DEMOS_MDFDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="_DEMOS_MDFDataSet.xss">
+      <DependentUpon>_DEMOS_MDFDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="_DEMOS_MDFDataSet1.xsc">
+      <DependentUpon>_DEMOS_MDFDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="_DEMOS_MDFDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>_DEMOS_MDFDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="_DEMOS_MDFDataSet1.xss">
+      <DependentUpon>_DEMOS_MDFDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="_DEMOS_MDFDataSet2.xsc">
+      <DependentUpon>_DEMOS_MDFDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="_DEMOS_MDFDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>_DEMOS_MDFDataSet2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="_DEMOS_MDFDataSet2.xss">
+      <DependentUpon>_DEMOS_MDFDataSet2.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\female.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\male.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Sql.Server.Express.10.0">
+      <Visible>False</Visible>
+      <ProductName>SQL Server 2008 Express</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DSC03111.JPG" />
+    <None Include="Resources\Apple.ico" />
+    <Content Include="Database1.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Database1_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>Database1.mdf</DependentUpon>
+    </Content>
+    <Content Include="Database2.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Database2_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>Database2.mdf</DependentUpon>
+    </Content>
+    <Content Include="Resources\icons1\Apple.ico" />
+    <Content Include="Resources\HITECH_LOGO.ico" />
+    <Content Include="Resources\icons1\docs.ico" />
+    <Content Include="Resources\icons1\drive.ico" />
+    <Content Include="Resources\icons1\folder-win10.ico" />
+    <Content Include="Resources\icons1\folder-winseven.ico" />
+    <Content Include="Resources\icons1\folder-winxp.ico" />
+    <Content Include="Resources\icons1\gdoc.ico" />
+    <Content Include="Resources\icons1\gdraw.ico" />
+    <Content Include="Resources\icons1\gform.ico" />
+    <Content Include="Resources\icons1\gjam.ico" />
+    <Content Include="Resources\icons1\glink.ico" />
+    <Content Include="Resources\icons1\gmap.ico" />
+    <Content Include="Resources\icons1\gnote.ico" />
+    <Content Include="Resources\icons1\gscript.ico" />
+    <Content Include="Resources\icons1\gsheet.ico" />
+    <Content Include="Resources\icons1\gsite.ico" />
+    <Content Include="Resources\icons1\gslides.ico" />
+    <Content Include="Resources\icons1\gtable.ico" />
+    <Content Include="Resources\icons1\sharedfolder-win10.ico" />
+    <Content Include="Resources\icons1\sharedfolder-winseven.ico" />
+    <Content Include="Resources\icons1\sharedfolder-winxp.ico" />
+    <None Include="Resources\WhatsApp Image 2017-02-28 at 10.40.57 AM %281%29.v1 - Copy.jpg" />
+    <None Include="Resources\sports1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="Database1.mdf">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Database1_log.ldf">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Database2.mdf">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Database2_log.ldf">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
