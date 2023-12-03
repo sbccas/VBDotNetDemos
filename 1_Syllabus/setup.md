@@ -65,6 +65,6 @@ First Install Visual Studio Community edition which involves a series of steps. 
    <img src="https://github.com/sbccas/VBDotNetDemos/blob/master/1_Syllabus/5.png" alt="Image" width="Auto" height="Auto">
    
 2. Home Page
-   <img src="https://github.com/sbccas/VBDotNetDemos/blob/master/1_Syllabus/5.png" alt="Image" width="Auto" height="Auto">
+   <img src="https://github.com/sbccas/VBDotNetDemos/blob/master/1_Syllabus/6.png" alt="Image" width="Auto" height="Auto">
 That's it! You've successfully installed and configured Visual Studio Community edition. Remember that Visual Studio receives updates regularly, so it's a good idea to check for updates periodically to stay current with the latest features and improvements.
 
