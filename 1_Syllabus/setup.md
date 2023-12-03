@@ -46,18 +46,25 @@ First Install Visual Studio Community edition which involves a series of steps. 
 ### Step 7: Launch Visual Studio
 
 1. After the installation is complete, click the "Launch" button to start Visual Studio.
+   <img src="https://github.com/sbccas/VBDotNetDemos/blob/master/1_Syllabus/1.png" alt="Image" width="Auto" height="Auto">
 
 2. On the first run, Visual Studio might ask you to sign in with a Microsoft account. You can sign in or choose to skip this step.
+   <img src="https://github.com/sbccas/VBDotNetDemos/blob/master/1_Syllabus/2.png" alt="Image" width="Auto" height="Auto">
 
 ### Step 8: Configuration
 
 1. Visual Studio may prompt you to customize your development environment. You can select your preferred theme, color scheme, and development settings.
+   <img src="https://github.com/sbccas/VBDotNetDemos/blob/master/1_Syllabus/3.png" alt="Image" width="Auto" height="Auto">
 
 2. Configure any additional settings based on your preferences.
+   <img src="https://github.com/sbccas/VBDotNetDemos/blob/master/1_Syllabus/4.png" alt="Image" width="Auto" height="Auto">
 
 ### Step 9: Ready to Use
 
 1. Once configured, Visual Studio Community is ready for use. You can start new projects, open existing ones, and explore the various features of the integrated development environment (IDE).
-
+   <img src="https://github.com/sbccas/VBDotNetDemos/blob/master/1_Syllabus/5.png" alt="Image" width="Auto" height="Auto">
+   
+2. Home Page
+   <img src="https://github.com/sbccas/VBDotNetDemos/blob/master/1_Syllabus/5.png" alt="Image" width="Auto" height="Auto">
 That's it! You've successfully installed and configured Visual Studio Community edition. Remember that Visual Studio receives updates regularly, so it's a good idea to check for updates periodically to stay current with the latest features and improvements.
 
