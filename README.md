@@ -42,9 +42,7 @@ Learn the fundamentals of .Net Programming:
 
 Explore a variety of sample programs to practice your skills:
 
-- [Basic Input and Output](3_Programs/)
-- [Decision Making](3_Programs/)
-- [Iterative / Looping ](3_Programs/)
+- [Installing VBDemos](3_Programs/installvbdemos.md)
 
 
 ## Assignments
