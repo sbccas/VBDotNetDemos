@@ -24,7 +24,15 @@ For Installing and Using VBDemos follow the following steps. Here's a step-by-st
 
 1. Select your Desired Demo from Menu.
    ![image](https://github.com/sbccas/VBDotNetDemos/assets/115479871/3bc4ed0d-3814-4659-8d4e-7a074c74135b)
+2. Use Help Menu Item ---->> View Code for Referencing Code of All Demos.
 
+### Step 4: For ADO.NET Demos
+
+1. Go to Step No 1.[Sample Download Website](http://163.53.177.99:8082/) and Click to Download Database from List Item 4.
+   ![image](https://github.com/sbccas/VBDotNetDemos/assets/115479871/a5ae59ed-56c0-48ed-9fdb-77a1bd16cec3)
+2. It will download an Access Database.(`studinfo.mdb`).
+3. Place the Database FIle in your Computer C: Drive Root Directory.
+4. Now your ADO.NET Demo will work on your System.  
 
 That's it! You've successfully installed VBDemos on your System. 
 Remember that VBDemos receives updates regularly, so it's a good idea to check for updates periodically to stay current with the latest features and improvements.
