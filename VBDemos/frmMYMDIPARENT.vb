@@ -246,7 +246,7 @@ Public Class frmMYMDIPARENT
         'frmcode.RichTextBox1.Text = line
         'frmcode.Show()
 
-        Dim url As String = "http://172.30.58.221/CodeViewer.aspx"
+        Dim url As String = "http://163.53.177.99:8082/CodeViewer.aspx"
         Process.Start(url)
     End Sub
 
