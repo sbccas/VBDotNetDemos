@@ -938,6 +938,11 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Sql.Server.Express.10.0">
+      <Visible>False</Visible>
+      <ProductName>SQL Server 2008 Express</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
     <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
       <Visible>False</Visible>
       <ProductName>Windows Installer 3.1</ProductName>
@@ -986,7 +991,28 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>Database2.mdf</DependentUpon>
     </Content>
+    <Content Include="Resources\icons1\Apple.ico" />
     <Content Include="Resources\HITECH_LOGO.ico" />
+    <Content Include="Resources\icons1\docs.ico" />
+    <Content Include="Resources\icons1\drive.ico" />
+    <Content Include="Resources\icons1\folder-win10.ico" />
+    <Content Include="Resources\icons1\folder-winseven.ico" />
+    <Content Include="Resources\icons1\folder-winxp.ico" />
+    <Content Include="Resources\icons1\gdoc.ico" />
+    <Content Include="Resources\icons1\gdraw.ico" />
+    <Content Include="Resources\icons1\gform.ico" />
+    <Content Include="Resources\icons1\gjam.ico" />
+    <Content Include="Resources\icons1\glink.ico" />
+    <Content Include="Resources\icons1\gmap.ico" />
+    <Content Include="Resources\icons1\gnote.ico" />
+    <Content Include="Resources\icons1\gscript.ico" />
+    <Content Include="Resources\icons1\gsheet.ico" />
+    <Content Include="Resources\icons1\gsite.ico" />
+    <Content Include="Resources\icons1\gslides.ico" />
+    <Content Include="Resources\icons1\gtable.ico" />
+    <Content Include="Resources\icons1\sharedfolder-win10.ico" />
+    <Content Include="Resources\icons1\sharedfolder-winseven.ico" />
+    <Content Include="Resources\icons1\sharedfolder-winxp.ico" />
     <None Include="Resources\WhatsApp Image 2017-02-28 at 10.40.57 AM %281%29.v1 - Copy.jpg" />
     <None Include="Resources\sports1.png" />
   </ItemGroup>
@@ -999,6 +1025,8 @@
       </Group>
       <TargetPath>
       </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
       <FileType>File</FileType>
     </PublishFile>
     <PublishFile Include="Database1_log.ldf">
@@ -1009,6 +1037,8 @@
       </Group>
       <TargetPath>
       </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
       <FileType>File</FileType>
     </PublishFile>
     <PublishFile Include="Database2.mdf">
@@ -1019,6 +1049,8 @@
       </Group>
       <TargetPath>
       </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
       <FileType>File</FileType>
     </PublishFile>
     <PublishFile Include="Database2_log.ldf">
@@ -1029,6 +1061,8 @@
       </Group>
       <TargetPath>
       </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
       <FileType>File</FileType>
     </PublishFile>
   </ItemGroup>

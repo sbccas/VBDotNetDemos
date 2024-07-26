@@ -12,7 +12,7 @@
         Label1.Text &= "ITEM AT LOCATION 10 is " & ListBox1.Items.Item(9).ToString
     End Sub
 
-    
+
     Private Sub btnSelMode0_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnSelMode0.Click
         ListBox1.SelectionMode = SelectionMode.None
     End Sub
@@ -36,7 +36,7 @@
         End If
     End Sub
 
-  
+
     Private Sub btnShow_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnShow.Click
 
         If ListBox1.SelectedIndex <> -1 Then
@@ -57,7 +57,11 @@
         Dim flag As Boolean = False
         If flag = False Then
             For i As Integer = 0 To ListBox1.Items.Count - 1
-                ListBox1.SetSelected(i, True)
+                If ListBox1.GetSelected(i) Then
+                    ListBox1.SetSelected(i, False)
+                Else
+                    ListBox1.SetSelected(i, True)
+                End If
 
             Next
             flag = True
@@ -71,7 +75,7 @@
 
     End Sub
 
-    
+
 
     Private Sub btnAdd_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnAdd.Click
 
@@ -137,7 +141,7 @@
                 End If
 
             Next
-            
+
         ElseIf ListBox1.SelectionMode = SelectionMode.One Then
             For i As Integer = 0 To ListBox1.Items.Count - 1
                 ListBox1.SetSelected(i, True)
@@ -179,14 +183,14 @@
         ListBox1.Items.RemoveAt(InputBox("Please Enter Index to Remove", "RemoveAt"))
     End Sub
 
-    
-  
-  
+
+
+
     Private Sub btnGetIndex_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnGetIndex.Click
         Me.Text = "Selected Index : " & ListBox1.SelectedIndex
     End Sub
 
-   
+
 
     Private Sub Button3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         Dim STR As String = InputBox("CHECK IF EXISTS")
@@ -226,7 +230,7 @@
 
     End Sub
 
-   
+
     Private Sub Button1_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
         Dim str As String = InputBox("ENTER NAME TO FIND IN LISTBOX")
 

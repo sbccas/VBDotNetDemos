@@ -35,7 +35,7 @@ Public Class frmDataEntry
     '       cmbCity.SelectedIndex = 0
     '       cmbCOurse.SelectedIndex = 0
     '   End Sub
-   
+
     '   Private Sub btnShow_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnShow.Click
 
     '       Dim cmd As New SqlCommand("select * from hitlist where id=" & txtRollNo.Text, cn)
@@ -198,7 +198,7 @@ Public Class frmDataEntry
             txtRollNo.Text = 1
         End If
 
-        
+
 
 
     End Sub
@@ -254,9 +254,9 @@ Public Class frmDataEntry
         maxno = ds1.Tables(0).Rows.Count
     End Sub
 
-   
 
-    
+
+
     Private Sub btnDesc_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnDesc.Click
         refreshgrid1("Desc", "BBA','BCA','BCOM")
     End Sub
@@ -272,7 +272,7 @@ Public Class frmDataEntry
         txtMobile.Text = ""
         cmbCity.SelectedIndex = 0
         cmbCOurse.SelectedIndex = 0
-        
+
     End Sub
 
     Private Sub frmDataEntry_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
@@ -301,7 +301,7 @@ Public Class frmDataEntry
 
     End Sub
 
-  
+
     Private Sub DataGridView1_CellClick(ByVal sender As System.Object, ByVal e As System.Windows.Forms.DataGridViewCellEventArgs) Handles DataGridView1.CellClick
         Dim data As String = DataGridView1.SelectedRows(0).Cells(0).Value.ToString
         txtRollNo.Text = DataGridView1.SelectedRows(0).Cells(0).Value.ToString
@@ -317,7 +317,7 @@ Public Class frmDataEntry
 
     Private Sub btnFrilterGrid_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnFrilterGrid.Click
         Dim cmd As New OleDbCommand
-        cmd.CommandText = "select * from student_master " & _
+        cmd.CommandText = "select * from student_master " &
                           "where sname like '" & txtName.Text & "%'"
 
         cmd.Connection = cn1
@@ -344,7 +344,7 @@ Public Class frmDataEntry
         End If
 
     End Sub
-    
+
 
     Private Sub Button1_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs)
         'Dim ik As Integer = 1
@@ -422,7 +422,7 @@ Public Class frmDataEntry
             inc = inc - 1
             displayrec()
         End If
-        
+
     End Sub
 
     Private Sub btnNext_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnNext.Click
@@ -434,7 +434,7 @@ Public Class frmDataEntry
         End If
     End Sub
 
-   
+
 
     Private Sub ComboBox1_SelectedIndexChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ComboBox1.SelectedIndexChanged
         refreshgrid1("Desc", ComboBox1.SelectedItem.ToString)
@@ -469,5 +469,7 @@ Public Class frmDataEntry
     End Sub
 
 
+    Private Sub DataGridView1_CellContentClick(ByVal sender As System.Object, ByVal e As System.Windows.Forms.DataGridViewCellEventArgs) Handles DataGridView1.CellContentClick
 
+    End Sub
 End Class

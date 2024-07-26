@@ -30,26 +30,21 @@
     End Sub
 
     Private Sub LinkLabel1_LinkClicked(ByVal sender As System.Object, ByVal e As System.Windows.Forms.LinkLabelLinkClickedEventArgs) Handles LinkLabel1.LinkClicked
-        System.Diagnostics.Process.Start("http://172.30.58.233/PhotoGallery/PicStore/Default/PhotoGallery%201/pics/Screenshot_2017-01-30_12.19.49.png")
     End Sub
 
     Private Sub LinkLabel2_LinkClicked(ByVal sender As System.Object, ByVal e As System.Windows.Forms.LinkLabelLinkClickedEventArgs) Handles LinkLabel2.LinkClicked
-        System.Diagnostics.Process.Start("http://172.30.58.233/PhotoGallery/PicStore/Default/PhotoGallery%201/pics/Screenshot_2017-01-30_12.19.59.png")
     End Sub
 
     Private Sub LinkLabel3_LinkClicked(ByVal sender As System.Object, ByVal e As System.Windows.Forms.LinkLabelLinkClickedEventArgs) Handles LinkLabel3.LinkClicked
-        System.Diagnostics.Process.Start("http://172.30.58.233/PhotoGallery/PicStore/Default/PhotoGallery%201/pics/Screenshot_2017-01-30_12.20.04.png")
     End Sub
 
     Private Sub LinkLabel4_LinkClicked(ByVal sender As System.Object, ByVal e As System.Windows.Forms.LinkLabelLinkClickedEventArgs) Handles LinkLabel4.LinkClicked
-        System.Diagnostics.Process.Start("http://172.30.58.233/PhotoGallery/PicStore/Default/PhotoGallery%201/pics/Screenshot_2017-01-30_12.20.07.png")
     End Sub
 
     Private Sub LinkLabel5_LinkClicked(ByVal sender As System.Object, ByVal e As System.Windows.Forms.LinkLabelLinkClickedEventArgs) Handles LinkLabel5.LinkClicked
-        System.Diagnostics.Process.Start("http://172.30.58.233/PhotoGallery/PicStore/Default/PhotoGallery%201/pics/Screenshot_2017-01-30_12.20.11.png")
     End Sub
 
-    
+
     Private Sub Button1_Click_2(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
         GroupBox1.Visible = False
 
@@ -81,6 +76,6 @@
     End Sub
 
     Private Sub frmContainerControls_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
-        
+
     End Sub
 End Class

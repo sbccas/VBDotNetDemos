@@ -15,9 +15,9 @@ Public Class frmMYMDIPARENT
 
     ' Return a random RGB color.
     Public Function RandomRGBColor() As Color
-        Return Color.FromArgb(255, _
-            m_Rnd.Next(0, 255), _
-            m_Rnd.Next(0, 255), _
+        Return Color.FromArgb(255,
+            m_Rnd.Next(0, 255),
+            m_Rnd.Next(0, 255),
             m_Rnd.Next(0, 255))
     End Function
 
@@ -152,7 +152,7 @@ Public Class frmMYMDIPARENT
 
         status.Panels("statusBarDate").Text = FormatDateTime(Now(), DateFormat.ShortDate)
         status.Panels("statusBarTime").Text = FormatDateTime(Now(), DateFormat.LongTime)
-        
+
         'Rather than set up message listeners etc, are you really going to notice much if the caps lock/nums lock is
         'upto 1 seconds out from true state?? doubt it much. (you decrease the timer tick of course.
         If GetKeyState(Keys.NumLock) = 1 Then
@@ -622,7 +622,7 @@ Public Class frmMYMDIPARENT
         frm.Show()
     End Sub
 
- 
+
 
     Private Sub ToolStripMenuItem7_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ToolStripMenuItem7.Click
         'Dim frm As New frmMaskedTextBox
@@ -642,14 +642,14 @@ Public Class frmMYMDIPARENT
         frm.Show()
     End Sub
 
-    
+
     Private Sub PersonalDetailsToolStripMenuItem_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PersonalDetailsToolStripMenuItem.Click
         Dim frm As New frmPerDetails
         frm.MdiParent = Me
         frm.Show()
     End Sub
 
-    
+
 
     Private Sub PersonalDetailsToolStripMenuItem3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PersonalDetailsToolStripMenuItem3.Click
         Dim frm As New frmPerDetails
