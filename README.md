@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # VBDemos
  VBDemos is a comprehensive educational tool developed in VB.Net to teach students the functionalities and usage of VB controls, as well as database interaction using CRUD (Create, Read, Update, Delete) operations.
 =======
@@ -77,4 +76,3 @@ Please follow our [contribution guidelines](README.md) to get started.
 
 Happy coding, and we hope you find these resources helpful on your journey to becoming a proficient .Net Programmer!
 
->>>>>>> origin/master
