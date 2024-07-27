@@ -27,7 +27,7 @@ Welcome to the .Net Programming Tutorials repository! This is your one-stop reso
 
 If you're new to .Net programming, start with the basics:
 
-- [Learn about Syllabus](1_Syllabus/404 .NET Programming 2021-22.pdf)
+- [Learn about Syllabus](1_Syllabus/404_NET_Programming_2021-22.pdf)
 - [Setting Up Your Development Environment](1_Syllabus/setup.md)
 
 
@@ -52,7 +52,7 @@ Explore a variety of sample programs to practice your skills:
 
 Challenge yourself with programming assignments:
 
-- [Assignment 1:All in One](4_Assignments/Assignment_Sheet.pdf)
+- [Theory Assignments :All in One](4_Assignments/Winter_VB.NET_ASS_I_II_III_IV_2024-25.pdf)
 
 
 ## Question Bank
