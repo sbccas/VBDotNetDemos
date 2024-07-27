@@ -35,11 +35,11 @@ If you're new to .Net programming, start with the basics:
 
 Learn the fundamentals of .Net Programming:
 
-- [UNIT-1: Introduction](2_Notes/Unit_1.pdf)
-- [UNIT-2: ](2_Notes/Unit_2.pdf)
-- [UNIT-3: ](2_Notes/Unit_3.pdf)
-- [UNIT-4: ](2_Notes/Unit_4.pdf)
-- [UNIT-5: ](2_Notes/Unit_5.pdf)
+- [Unit 1. Overview of Microsoft .NET Framework](2_Notes/Unit_1.pdf)
+- [Unit 2. Programming in Visual basic .net](2_Notes/Unit_2.pdf)
+- [Unit 3. Introduction to Windows controls](2_Notes/Unit_3.pdf)
+- [Unit 4. Object Oriented Programming](2_Notes/Unit_4.pdf)
+- [Unit 5. Database access using ADO.NET](2_Notes/Unit_5.pdf)
 
 ## Sample Programs
 
