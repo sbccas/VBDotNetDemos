@@ -1,0 +1,6 @@
+>git init
+>git remote add origin https://github.com/sbccas/VBDotNetDemos.git
+>git add .
+>git commit -m "Initial commit"
+>git fetch origin
+>git push origin master
